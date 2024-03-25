@@ -17,12 +17,12 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; /* All fonts in the html element are at 62.5% of their normal size */
 }
 
 body {
   font-family: var(--font-family-base);
-  font-size: var(--font-size-medium);
+  font-size: var(--font-size-medium); /* Any fonts in the body have their sizes set to font-size-medium */
 }
 
 h1,
