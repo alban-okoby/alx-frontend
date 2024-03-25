@@ -24,6 +24,8 @@
   
   --section-title-margin: 0;
   --section-title-color: var(--color-black);
+  --section-header-align: center;
+  --section-tagline-transform: uppercase;
 }
 
 html {
@@ -75,14 +77,6 @@ a {
 .card-category,
 .section-tagline {
   color: var(--color-primary);
-}
-
-:root {
-  --section-header-align: center;
-}
-
-:root {
-  --section-tagline-transform: uppercase;
 }
 
 .section-tagline {
