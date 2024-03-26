@@ -605,7 +605,7 @@ ul.row {
 
 .card-services a {
   display: block;
-  padding: 2rem; /* Changed to 2rem as specified */
+  padding: 2rem;
   background-color: var(--color-light-grey);
 }
 
@@ -613,4 +613,14 @@ ul.row {
   color: var(--color-white);
   background-color: var(--color-primary);
   text-decoration: none;
+}
+
+.card-testimonial {
+  text-align: center;
+}
+
+.card-testimonial .card-avatar {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10
 }
