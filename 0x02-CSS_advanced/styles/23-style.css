@@ -350,9 +350,9 @@
     display: none;
   }
   
-  /*# sourceMappingURL=normalize.min.css.map */
-
-  *, *:before, *:after {
+  *,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -560,7 +560,6 @@ ul.row {
   display: block;
 }
 
-.social-link svg {
+.social-link > svg {
   fill: var(--text-color);
 }
-
